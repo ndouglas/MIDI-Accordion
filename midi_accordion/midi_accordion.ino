@@ -11,6 +11,10 @@
 const char midiPin = 3;
 const char leftHandPins[] = { 7, 6, 5 };
 const char rightHandPins[] = { 13, 12, 11, 10, 9, 8 };
+const char noteOnCommand = 0x90;
+const char noteOffCommand = 0x80;
+const char leftHandChannel = 0;
+const char rightHandChannel = 0;
 
 int leftHandStatus[] = {
   B0000000,
